@@ -1,0 +1,31 @@
+{
+  "vehicle": {
+    "type": "choice",
+    "prompt": "What type of vehicle is most prominent?",
+    "options": {
+      "car": "a passenger car",
+      "van": "a van or minibus",
+      "truck": "a lorry or truck",
+      "motorcycle": "a motorcycle"
+    }
+  },
+  "damaged": {
+    "type": "binary",
+    "prompt": "Is the main vehicle visibly damaged?",
+    "options": {
+      "yes": "the main vehicle has visible damage",
+      "no": "the main vehicle has no visible damage"
+    }
+  },
+  "severity": {
+    "type": "score",
+    "prompt": "How severe is the visible damage?",
+    "options": [
+      "no visible damage",
+      "minor cosmetic damage",
+      "moderate damage",
+      "major structural damage"
+    ]
+  }
+}
+

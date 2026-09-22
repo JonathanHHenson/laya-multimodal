@@ -1,0 +1,3 @@
+{"media":"images/001.jpg","question":{"id":"animal","type":"choice","prompt":"What animal is prominent?","options":{"dog":"a dog","cat":"a cat","horse":"a horse"}},"target":"dog"}
+{"media":"images/002.jpg","question":{"id":"damage","type":"score","prompt":"How severe is the damage?","options":["none","minor","moderate","major"]},"target_distribution":{"0":0.0,"1":0.1,"2":0.8,"3":0.1}}
+
